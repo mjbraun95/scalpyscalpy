@@ -36,7 +36,7 @@ def nikeLoop():
     confirm()
 
     email = driver.find_element_by_name("emailAddress")
-    email.send_keys("mjbraun@ualberta.ca", Keys.ENTER)
+    email.send_keys("", Keys.ENTER)
     confirm()
 
     password = driver.find_element_by_name("password")
